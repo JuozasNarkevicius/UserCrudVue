@@ -1,0 +1,12 @@
+micronaut:
+  server:
+    port: 8080
+    cors:
+      enabled: true
+  application:
+    name: waaBackend
+    router:
+      satic-recources:
+        cient:
+          paths: classpath:webapp
+          mapping: /**
